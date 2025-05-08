@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Results - IPTF_AbuAli</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Results for {{ target }}</h1>
+    <pre>{{ results | tojson(indent=4) }}</pre>
+
+    <a href="/download">📥 Download Report (JSON)</a><br>
+    <a href="/">⬅️ Run Another Test</a>
+</body>
+</html>
