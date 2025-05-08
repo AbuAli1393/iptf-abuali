@@ -1,0 +1,13 @@
+tools:
+  recon:
+    - theHarvester
+    - passiveTotal
+  scan:
+    - nuclei
+    - openvas
+  exploit:
+    - sqlmap
+    - metasploit
+  post:
+    - empire
+    - mimikatz
