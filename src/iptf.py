@@ -1,10 +1,10 @@
 import subprocess
 import json
-from recon import ReconModule
-from scan import ScanModule
-from exploit import ExploitModule
-from post_exploit import PostExploitModule
-from report import ReportGenerator
+from .recon import ReconModule
+from .scan import ScanModule
+from .exploit import ExploitModule
+from .post_exploit import PostExploitModule
+from .report import ReportGenerator
 
 class IPTFEngine:
     def __init__(self, target, mode):
