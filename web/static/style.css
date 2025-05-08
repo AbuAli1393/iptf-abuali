@@ -1,1 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: #f9f9f9;
+}
 
+h1 {
+    color: #003366;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+}
+
+pre {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    white-space: pre-wrap;
+}
