@@ -1,1 +1,8 @@
-
+requests
+flask
+python-nmap
+subprocess32
+pyyaml
+ansible
+docker
+jsonschema
