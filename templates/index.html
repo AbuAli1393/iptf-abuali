@@ -1,1 +1,28 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPTF_AbuAli - Penetration Testing Framework</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>IPTF_AbuAli</h1>
+    <p>Integrated Penetration Testing Framework</p>
+
+    <form method="post">
+        <label for="target">Target:</label>
+        <input type="text" id="target" name="target" required>
+
+        <label for="mode">Mode:</label>
+        <select id="mode" name="mode">
+            <option value="recon">Reconnaissance Only</option>
+            <option value="scan">Scanning Only</option>
+            <option value="exploit">Exploitation Only</option>
+            <option value="full" selected>Full Test</option>
+        </select>
+
+        <button type="submit">Run Test</button>
+    </form>
+</body>
+</html>
