@@ -1,0 +1,17 @@
+{
+  "recon": {
+    "harvester": "[TheHarvester output...]",
+    "shodan": "[Shodan result...]"
+  },
+  "scan": {
+    "nuclei": "[CVE findings...]",
+    "openvas": "[OpenVAS scan result...]"
+  },
+  "exploit": {
+    "sqlmap": "[SQL injection attempt...]",
+    "metasploit": "[Dir scanner output...]"
+  },
+  "post": {
+    "empire": "[PowerShell Empire logs...]"
+  }
+}

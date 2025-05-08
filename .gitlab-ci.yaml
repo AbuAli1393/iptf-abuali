@@ -1,0 +1,13 @@
+stages:
+  - security
+
+security_test:
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker build -t iptf-abuali .
+    - docker run iptf-abuali --target myapp.example.com --mode full
+  artifacts:
+    paths:
+      - report.json
