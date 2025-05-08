@@ -50,11 +50,15 @@ All modules are orchestrated via Python scripts and RESTful APIs, enabling seaml
 bash
 
 git clone https://github.com/AbuAli1393/iptf-abuali.git
+
 cd iptf-abuali
+
 🔹 Install Dependencies
+
 bash
 
 pip install -r requirements.txt
+
 🔹 Run a Test (CLI Mode)
 bash
 
