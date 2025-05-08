@@ -1,3 +1,28 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Base -->
+  <path d="M50,20 
+           L100,10 
+           L250,20 
+           L280,90 
+           L150,190 
+           L20,90 
+           Z"
+        fill="#007BFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Circuit Pattern -->
+  <g transform="translate(60,30)">
+    <circle cx="40" cy="40" r="5" fill="#FFD700"/>
+    <circle cx="80" cy="40" r="5" fill="#FFD700"/>
+    <circle cx="60" cy="80" r="5" fill="#FFD700"/>
+    <line x1="40" y1="40" x2="60" y2="80" stroke="#FFD700" stroke-width="2"/>
+    <line x1="80" y1="40" x2="60" y2="80" stroke="#FFD700" stroke-width="2"/>
+  </g>
+
+  <!-- Text -->
+  <text x="60" y="140" font-family="Montserrat, Arial" font-size="24" fill="#000">IPTF_AbuAli</text>
+  <text x="60" y="170" font-family="Arial" font-size="16" fill="#555">Integrated Pen Testing Framework</text>
+</svg>
+
 👉 https://github.com/AbuAli1393/iptf-abuali
 
 This README includes:
